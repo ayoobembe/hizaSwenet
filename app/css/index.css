@@ -1,3 +1,114 @@
 h1 {
   font-size: 100px;
 }
+
+.header_top {
+	background-color: #363636;
+		display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-direction: row
+  	flex-direction: row;
+  	-webkit-align-items: center;
+  	align-items: center;
+  	-webkit-justify-content: center;
+  	justify-content: center;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	margin: 1rem;
+}
+
+.menu_top {
+	background-color: #363636;
+	height: 500px;
+	width: 100%;
+	display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-direction: row
+  	flex-direction: row;
+  	-webkit-align-items: center;
+  	align-items: center;
+  	-webkit-justify-content: center;
+  	justify-content: center;
+}
+
+.text_wrap {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main_text {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: white;
+	font-weight: 100;
+	font-size: 48px;
+	line-height: 60px;
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+.second_box {
+	width: 50%;
+	height: 500px;
+	background-color: white;
+	left: 0;
+	margin-left: 0%;
+}
+
+.third_box {
+	width: 50%;
+	height: 250px;
+	background-image: url(/images/background1.jpg);
+	background-size: 800px;
+
+}
+
+.fourth_box {
+	width: 25%;
+	background-image: url(/images/background2.jpg);
+	background-size: 600px;
+		background-position: -70px 300px;
+	height: 250px;
+}
+
+.fifth_box {
+	width: 25%;
+	background-image: url(/images/background3.jpg);
+	background-size: 600px;
+	background-position: -70px 300px;
+	height: 250px;
+	right: 0;
+}
+
+.title {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+	color: #343434;
+	letter-spacing: 2px;
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.text {
+		font-family: 'Lato', sans-serif;
+		letter-spacing: 1px;
+		font-size: 16px;
+}
+
+.text_wrap2 {
+	width: 70%;
+	text-align: left;
+	margin: auto;
+	
+}
+
+.sixth_box {
+	background-color: #F3F3F3;
+	height: 500px;
+}
