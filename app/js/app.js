@@ -1,6 +1,6 @@
 'use strict';
 
 /* App */
-var hizaSwenet = angular.module('hizaSwenet', [
+var hizaApp = angular.module('hizaApp', [
   'hizaControllers'
 ]);

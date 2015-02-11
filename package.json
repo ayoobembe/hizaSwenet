@@ -7,7 +7,9 @@
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "http-server -d false -a 0.0.0.0 -p 8000",
+    "start": "node server.js",
+
+    "test": "node node_modules/karma/bin/karma start test/karma.conf.js",
 
     "update-webdriver": "webdriver-manager update",
 
