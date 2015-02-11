@@ -13,7 +13,7 @@ describe("Hiza Swenet Website's controllers", function() {
       var scope = {},
         controller = $controller('bodyController', {$scope:scope});
 
-      expect(scope.greet).toBe("Hello, Fathi!");
+      expect(scope.company).toBe("Hiza Swenet");
     }))
   });
 

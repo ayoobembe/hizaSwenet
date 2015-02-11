@@ -6,7 +6,7 @@ describe('Hiza Swenet website', function() {
 
       it('should say hello to Fathi', function(){
         browser.get('/');
-        expect(element(by.css('h1')).getText()).toBe('Hello, Fathi!')
+        expect(element(by.css('h1')).getText()).toBe('Hiza Swenet')
       });
 
     });

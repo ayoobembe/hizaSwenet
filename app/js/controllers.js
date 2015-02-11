@@ -2,6 +2,6 @@ var hizaControllers = angular.module('hizaControllers', []);
 
 hizaControllers.controller('bodyController',['$scope',
   function ($scope) {
-    $scope.greet = "Hello, Fathi!";
+    $scope.company = "Hiza Swenet";
   }
 ])
