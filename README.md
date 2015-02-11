@@ -41,11 +41,7 @@ Basic website for Hiza Swenet (company).
 ##Notes:
 
 Everything related to the front-end is contained in hizaSwenet/app.
-
 The back-end is pretty basic and for now comprises of
-
 the server.js which serves up a basic html page i.e index.
-
 All routing in the future would be done via angular-route on the
-
 front end.
